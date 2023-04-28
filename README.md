@@ -1,7 +1,7 @@
 # Compatibility-Predictor
 
-I included the json-c library to be able to use the JSON object functions.
-I searched through the json-c library documentation and found functions to help me parse the data in the JSON file into my C code.
-I initialized various structures inorder to hold the values that I read from the JSON file.
-I could not figure out how to obtain the attribute values from the JSON file.
-Because the following code relied on the obtaining the attribute values I could not write code to generate the output. I wrote psuedocode in me compPred.c file.
+To run my solution please ensure the compatabilityPredictor.py and data.json file locations are known. My solution takes input from the data.json file. Personally, I have them stored in the same folder which I work in so my command to run the program would be: 
+
+py .\compatabilityPredictor.py .\data.json
+
+Please change directory to files as needed. The output will be presented in json format in the command line. If there are any issues with running the program please let me know, thank you.
